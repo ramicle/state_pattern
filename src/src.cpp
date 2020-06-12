@@ -3,7 +3,7 @@
 
 int main()
 {
-repeat:
+while(true){
     std::cout << "credit\n";
 
     std::this_thread::sleep_for(std::chrono::seconds(3));// 3 秒待つ
@@ -20,6 +20,6 @@ repeat:
 
     std::this_thread::sleep_for(std::chrono::seconds(5));// 5 秒待つ
     
-    goto repeat;
+#    goto repeat;
 }
 
