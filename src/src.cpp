@@ -19,7 +19,6 @@ while(true){
     std::cout << "demo\n";
 
     std::this_thread::sleep_for(std::chrono::seconds(5));// 5 秒待つ
-    
-#    goto repeat;
+    }
 }
 
